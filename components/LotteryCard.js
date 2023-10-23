@@ -11,7 +11,7 @@ const LotteryCard = () => {
         <span className={style.textAccent}>#{lotteryId<1 ?'1':lotteryId}</span>
       </div>
       <div className={style.pot}>
-        Pot 🍯: <span className={style.goldAccent}>{lotteryPot}</span>
+       Lottery Pot: <span className={style.goldAccent}>{lotteryPot}</span>
       </div>
 
       <div className={style.recentWinnerTitle}>🏆Last Winners🏆</div>
