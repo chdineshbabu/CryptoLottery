@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={style.wrapper}>
       <div className={style.title}>CryptoLottery 💰</div>
-      {address ? <UserCard address={address}/> : <ConnectWalletBtn connectWallet={connectWallet} />}
+      {address ? <UserCard address={address}/> :<ConnectWalletBtn connectWallet={connectWallet} />}
     </div>
   )
 }
