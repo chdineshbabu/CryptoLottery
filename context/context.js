@@ -34,7 +34,7 @@ export const AppProvider = ({ children }) => {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [lotteryContract]);
 
   const connectWallet = async () => {
     if (typeof window !== 'undefined' && typeof window.ethereum !== 'undefined') {
